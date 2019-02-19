@@ -34,3 +34,4 @@ class Worker extends BaseWorker implements IEat, ISick{
 	public void sick(){
 		System.out.format("sick...");
 }
+}
