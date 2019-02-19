@@ -5,6 +5,6 @@ package threesolid;
 
 class BaseWorker implements IWorkable{
 	public void work() {
-		System.format("work work work...");
+		System.out.format("work work work...");
 	}
 }
