@@ -15,8 +15,10 @@ package threesolid;
 
 import java.awt.*;
 
- class Robot extends Baseworker, implements IReboot{
+ class Robot extends BaseWorker implements IReboot{
 	public void work() {
 		System.out.format("robot working...");
 	}
+	public void reboot(){
+		System.out.format("rebooting...");
  }
