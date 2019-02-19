@@ -23,7 +23,7 @@ that provides //more functionlity than needed.
 
 package threesolid;
 
-class Worker extends BaseWorkers, implements IEat, ISick{
+class Worker extends BaseWorker implements IEat, ISick{
 	public void work() {
 		System.out.format("working...");
 	}
@@ -31,4 +31,6 @@ class Worker extends BaseWorkers, implements IEat, ISick{
 	public void eat() {
 		System.out.format("eating...");
 	}
+	public void sick(){
+		System.out.format("sick...");
 }
