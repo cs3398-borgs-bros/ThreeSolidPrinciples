@@ -1,7 +1,7 @@
 //Interface for assignment 5
 package threesolid;
 
-interface iWorkable{
+interface IWorkable{
 	public void work();
 }
 
