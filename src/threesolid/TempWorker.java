@@ -2,7 +2,7 @@ package threesolid;
 
 public class TempWorker extends BaseWorker implements IEat, ISick {
 	@Override
-	public void String work() {
+	public void work() {
 		System.out.format("Work work work temporarily\n");
 	}
 	
