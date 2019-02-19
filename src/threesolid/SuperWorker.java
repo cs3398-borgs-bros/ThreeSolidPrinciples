@@ -10,12 +10,11 @@
 */
 package threesolid;
 
-class SuperWorker implements IWorkable, IFeedable{
-	public void work() {
-		//.... working much more
-	}
+public class SuperWorker extends BaseWorker implements  IEat, ISick {
 
-	public void eat() {
-		//.... eating in launch break
+	@Override
+	public String work() {
+		System.out.format("Working super hard\n");
+		return ("Working super hard\n");
 	}
 }
