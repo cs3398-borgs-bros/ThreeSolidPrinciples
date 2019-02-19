@@ -23,12 +23,12 @@ that provides //more functionlity than needed.
 
 package threesolid;
 
-class Worker implements IWorkable, IFeedable{
+class Worker extends BaseWorkers, implements IEat, ISick{
 	public void work() {
-		// ....working
+		System.out.format("working...");
 	}
 
 	public void eat() {
-		//.... eating in launch break
+		System.out.format("eating...");
 	}
 }
