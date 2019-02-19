@@ -1,16 +1,15 @@
 package threesolid;
 
-
 public class Main
-{   
+{
   public static Manager regManager = new Manager();
   public static ProductManager prodManager = new ProductManager();
   public static ProjectManager projManager = new ProjectManager();
+  
   // The entry main() method
   public static void main(String[] args) 
   {
     System.out.format("Starting management ... \n"); 
-
     try 
     {  
       System.out.format("\nManager hiring new TempWorker.. \n"); 
