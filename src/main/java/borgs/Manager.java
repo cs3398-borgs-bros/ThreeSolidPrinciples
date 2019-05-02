@@ -20,6 +20,6 @@ class Manager {
 	}
 	
 	public void manage() {
-		worker.work();
+		System.out.format(worker.work());
 	}
 }

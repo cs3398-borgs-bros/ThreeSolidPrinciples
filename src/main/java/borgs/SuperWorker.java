@@ -13,15 +13,15 @@ package borgs;
 public class SuperWorker extends BaseWorker implements  IEat, ISick {
 
 	@Override
-	public void work() {
-		System.out.format("Work work work super hard\n");
+	public String work() {
+		return "Work work work super hard\n";
 	}
 	
-	public void eat() {
-		System.out.format("Eating super lunch\n");
+	public String eat() {
+		return "Eating super lunch\n";
 	}
 
-	public void sick() {
-		System.out.format("Super sick\n");
+	public String sick() {
+		return "Super sick\n";
 	}
 }

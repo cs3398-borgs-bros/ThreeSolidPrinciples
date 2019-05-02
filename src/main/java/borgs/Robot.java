@@ -16,10 +16,10 @@ package borgs;
 import java.awt.*;
 
  class Robot extends BaseWorker implements IReboot{
-	public void work() {
-		System.out.format("robot working...");
+	public String work() {
+		return "robot working...";
 	}
-	public void reboot(){
-		System.out.format("rebooting...");
- }
+	public String reboot(){
+		return "rebooting...";
+ 	}
  }

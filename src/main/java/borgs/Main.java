@@ -19,13 +19,13 @@ public class Main
 
       System.out.format("\nProduct Manager hiring new SuperWorker.. \n"); 
       prodManager.setWorker(new SuperWorker());
-      prodManager.defineproduct();
+      System.out.format(prodManager.defineproduct());
       System.out.format("Managing SuperWorker.. \n"); 
       prodManager.manage();
 
       System.out.format("\nProject Manager hiring new Robot.. \n");
       projManager.setWorker(new Robot());
-      projManager.schedulework();
+      System.out.format(projManager.schedulework());
       System.out.format("Managing Robot.. \n");
       projManager.manage();
     } 

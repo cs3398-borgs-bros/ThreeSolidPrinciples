@@ -4,7 +4,7 @@
 package borgs;
 
 class BaseWorker implements IWorkable{
-	public void work() {
-		System.out.format("work work work...");
+	public String work() {
+		return "work work work...";
 	}
 }

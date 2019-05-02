@@ -24,14 +24,14 @@ that provides //more functionlity than needed.
 package borgs;
 
 class Worker extends BaseWorker implements IEat, ISick{
-	public void work() {
-		System.out.format("working...");
+	public String work() {
+		return "working...";
 	}
 
-	public void eat() {
-		System.out.format("eating...");
+	public String eat() {
+		return "eating...";
 	}
-	public void sick(){
-		System.out.format("sick...");
-}
+	public String sick(){
+		return "sick...";
+	}
 }

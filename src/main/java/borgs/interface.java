@@ -2,21 +2,21 @@
 package borgs;
 
 interface IWorkable{
-	public void work();
+	public String work();
 }
 
 interface IFeedable{
-	public void eat(); 
+	public String eat(); 
 
 }
 interface IEat {
-	public void eat();
+	public String eat();
 }
 
 interface ISick{
-	public void sick();
+	public String sick();
 }
 
 interface IReboot{
-	public void reboot(); 
+	public String reboot(); 
 }
