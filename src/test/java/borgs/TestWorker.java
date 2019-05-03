@@ -17,5 +17,19 @@ public class TestWorker {
     {
         assertEquals(w.work(), "working...", "Mismatch between test text and method text");
     }
+
+    @Test
+    @DisplayName("Worker Eat + Sick Method Test")
+    public void newtestDLWorkerPass() 
+    {
+        String msg = w.eat() + w.sick();
+        assertTrue(msg.equals("eating...sick..."));
+    }
     
+    /*@Test
+    @DisplayName("Worker Object NULL Test")
+    public void newtestDLWorkerPass() 
+    {
+        assertNotNull(w);
+    }*/
 }
