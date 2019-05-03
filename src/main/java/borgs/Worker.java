@@ -25,7 +25,7 @@ package borgs;
 
 class Worker extends BaseWorker implements IEat, ISick{
 	public String work() {
-		return "working...";
+		return "Worker Walter is working...";
 	}
 
 	public String eat() {

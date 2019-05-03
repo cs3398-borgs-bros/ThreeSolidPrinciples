@@ -1,0 +1,5 @@
+To find evidence for test(s) that pass and failed can be seen in the directory 
+"\Screenshots of builds".
+
+For any new builds reports will be in 
+"\build\reports\tests\test".
