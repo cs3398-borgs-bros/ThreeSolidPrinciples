@@ -26,10 +26,10 @@ public class TestWorker {
         assertTrue(msg.equals("eating...sick..."));
     }
     
-    /*@Test
+    @Test
     @DisplayName("Worker Object NULL Test")
-    public void newtestDLWorkerPass() 
+    public void newtestDLWorkerFail() 
     {
-        assertNotNull(w);
-    }*/
+        assertNull(w);
+    }
 }
